@@ -1,0 +1,18 @@
+{
+  "model": "BushraAlmod03/ArTrOCR-HTR",
+  "split": "public_1100/set0",
+  "train_lines": 22092,
+  "seed": 37,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "epochs": 1,
+  "lr": 1e-05,
+  "save_every": 300,
+  "transformers": "5.21.0",
+  "torch": "2.11.0+cu130",
+  "max_new_tokens": 191,
+  "image_size": [
+    512,
+    102
+  ]
+}

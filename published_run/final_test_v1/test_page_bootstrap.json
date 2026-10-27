@@ -1,0 +1,12 @@
+{
+  "unit": "inferred source page",
+  "pages": 66,
+  "replicates": 2000,
+  "seed": 37,
+  "change_pp_selected_minus_frozen": -21.808274180827425,
+  "interval_95_pp": [
+    -25.293228754407426,
+    -18.409452902174312
+  ],
+  "replicates_without_improvement": 0
+}

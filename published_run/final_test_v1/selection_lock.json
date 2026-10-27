@@ -1,0 +1,34 @@
+{
+  "selected": "finetune_v2_second_epoch/checkpoint_latest",
+  "criterion": "lowest raw CER on set0 validation among the two completed fine-tuning epochs",
+  "validation_cer_first": 0.37922465208747513,
+  "validation_cer_second": 0.36550340812269244,
+  "source_state": {
+    "config": {
+      "model": "BushraAlmod03/ArTrOCR-HTR",
+      "split": "public_1100/set0",
+      "train_lines": 22092,
+      "seed": 38,
+      "batch_size": 2,
+      "grad_accum": 8,
+      "epochs": 1,
+      "lr": 3e-06,
+      "save_every": 300,
+      "transformers": "5.21.0",
+      "torch": "2.11.0+cu130",
+      "max_new_tokens": 191,
+      "image_size": [
+        512,
+        102
+      ],
+      "source_checkpoint": "/content/drive/MyDrive/Colab Notebooks/data-stuff/muharaf_transformer_runs/finetune_v1/checkpoint_latest",
+      "source_step": 1381
+    },
+    "step": 1381,
+    "micro_done": 11046
+  },
+  "model_sha256": "cb69c36e312d20df1600669838e96b3cd9f5bc87f300ebc956bcde2217de4aa8",
+  "max_new_tokens": 191,
+  "preprocessing": "same 512x102 RGB preparation as Stage 1-3",
+  "note": "Validation mark alignment: first 206 matched / 385 unmatched predicted; second 229 / 413. Test unopened at selection."
+}

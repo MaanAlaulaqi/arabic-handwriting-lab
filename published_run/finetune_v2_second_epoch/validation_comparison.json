@@ -1,0 +1,28 @@
+{
+  "model": "BushraAlmod03/ArTrOCR-HTR",
+  "split": "public_1100/set0 validation",
+  "lines": 1069,
+  "training_updates": 1381,
+  "frozen": {
+    "raw_cer": 0.5684997159897757,
+    "wer": 0.9709680648713584,
+    "cer_without_basic_harakat": 0.5641949725200468,
+    "reference_basic_harakat": 841,
+    "predicted_basic_harakat": 217
+  },
+  "first_epoch": {
+    "raw_cer": 0.37922465208747513,
+    "wer": 0.7483231554710181,
+    "cer_without_basic_harakat": 0.37064600414451754,
+    "reference_basic_harakat": 841,
+    "predicted_basic_harakat": 591
+  },
+  "second_epoch": {
+    "raw_cer": 0.36550340812269244,
+    "wer": 0.7278005806387026,
+    "cer_without_basic_harakat": 0.35668078205243714,
+    "reference_basic_harakat": 841,
+    "predicted_basic_harakat": 642
+  },
+  "note": "Harakat totals are output frequency, not counts of correct matches. Follow-up changes duration and learning rate."
+}

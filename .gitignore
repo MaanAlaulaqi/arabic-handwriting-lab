@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+data/*
+!data/set0/
+data/set0/*
+!data/set0/*.jsonl
+!data/set0/README.md
+*.pt
+*.safetensors
+*.zip

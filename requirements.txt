@@ -1,0 +1,7 @@
+transformers==5.21.0
+accelerate
+jiwer
+rapidfuzz
+safetensors
+Pillow
+numpy

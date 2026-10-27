@@ -1,0 +1,20 @@
+{
+  "model": "BushraAlmod03/ArTrOCR-HTR",
+  "split": "public_1100/set0",
+  "train_lines": 22092,
+  "seed": 38,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "epochs": 1,
+  "lr": 3e-06,
+  "save_every": 300,
+  "transformers": "5.21.0",
+  "torch": "2.11.0+cu130",
+  "max_new_tokens": 191,
+  "image_size": [
+    512,
+    102
+  ],
+  "source_checkpoint": "/content/drive/MyDrive/Colab Notebooks/data-stuff/muharaf_transformer_runs/finetune_v1/checkpoint_latest",
+  "source_step": 1381
+}
